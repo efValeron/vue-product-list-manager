@@ -14,7 +14,7 @@ TypeScript cannot handle type information for `.vue` imports by default, so we r
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
+## Project Commands
 
 ```sh
 npm install
@@ -26,14 +26,32 @@ npm install
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+### Type-Check, Compile, and Minify for Production
 
 ```sh
 npm run build
+```
+
+### Preview the Production Build
+
+```sh
+npm run preview
 ```
 
 ### Lint with [ESLint](https://eslint.org/)
 
 ```sh
 npm run lint
+```
+
+### Format Code with [Prettier](https://prettier.io/)
+
+```sh
+npm run format
+```
+
+### Type-Check the Project
+
+```sh
+npm run type-check
 ```
