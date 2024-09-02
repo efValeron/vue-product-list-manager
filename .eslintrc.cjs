@@ -15,5 +15,6 @@ module.exports = {
   rules: {
     'vue/multi-word-component-names': 'off',
     'no-undef': 'off',
+    'vue/no-use-v-if-with-v-for': 'off'
   },
 }
